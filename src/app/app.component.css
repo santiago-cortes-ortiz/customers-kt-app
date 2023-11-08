@@ -1,0 +1,6 @@
+.container {
+    max-width: 800px;
+    /* Puedes ajustar este valor a lo que prefieras */
+    margin: 0 auto;
+    padding: 0 20px;
+}
