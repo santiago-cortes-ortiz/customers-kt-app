@@ -27,4 +27,4 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@4.1.5
         with:
           branch: gh-pages  # La rama de GitHub Pages
-          folder: dist/your-project-name  # Cambia 'your-project-name' al nombre de tu proyecto
+          folder: docs/  # Cambia 'your-project-name' al nombre de tu proyecto
