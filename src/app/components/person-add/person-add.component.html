@@ -1,0 +1,14 @@
+<div class="title-container">
+    <h2>Agregar Persona</h2>
+</div>
+<form [formGroup]="personForm" (ngSubmit)="addPerson()">
+      <label for="name">Nombre:</label>
+      <input type="text" id="name" formControlName="name" required>
+      <label for="lastName">Apellido:</label>
+      <input type="text" id="lastName" formControlName="lastName" required>
+      <label for="age">Edad:</label>
+      <input type="number" id="age" formControlName="age" required>
+      <label for="birthdate">Fecha de nacimiento:</label>
+      <input type="date" id="birthdate" formControlName="birthdate" required>
+    <button type="submit">Agregar</button>
+</form>

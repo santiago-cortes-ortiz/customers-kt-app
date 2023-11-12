@@ -14,7 +14,7 @@ export class PersonListComponent implements OnInit {
   constructor(private _personService: PersonService) { }
 
   ngOnInit(): void {
-    this._personService.getPeople()
+    this._personService.getPeopleObservable()
     .subscribe({
       next: (people) => this.people = people,
       error: (err) => console.log(err),

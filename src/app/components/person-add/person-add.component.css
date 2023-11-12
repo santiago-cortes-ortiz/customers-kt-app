@@ -1,0 +1,51 @@
+
+.title-container {
+    margin-top: 20px;
+    text-align: center; /* Centra el texto horizontalmente */
+    margin-bottom: 15px; /* Agrega un espacio debajo del título */
+    font-size: 24px; /* Define el tamaño de la fuente */
+    font-weight: bold; /* Hace que el texto sea negrita */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+}
+
+label {
+  align-self: flex-start;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="number"],
+select {
+  padding: 15px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
